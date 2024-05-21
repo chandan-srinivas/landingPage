@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width:100%;
+    min-height: 100vh;
+}
+.top{
+    width:100%;
+    min-height: 60vh;
+    background-image: url('https://www.hdwallpapers.in/download/calm_body_of_water_surrounded_with_trees_and_mountains_during_daytime_4k_hd_nature-HD.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.top .overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.059);
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width:100%;
+    padding: 0 10vh;
+    color: rgba(255, 255, 255, 0.832);
+    bottom: 5%;
+}
+.text h1{
+    padding-left: 20px;
+    padding-top: 45px;
+    font-weight: 700;
+    font-size: 5vw;
+    color: black;
+}
+.text .image{
+    background-image: url('https://images4.alphacoders.com/378/thumb-1920-37864.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 220px;
+}
+.rtext{
+    display: flex;
+    width:25%;
+    align-items: center;
+    justify-content: space-between;
+}
+.rtext p{
+    font-size: 12px;
+}
+.bottom{
+    display: flex;
+    width:100%;
+    min-height: 40vh;
+}
+.b1{
+    width:30%;
+    min-height: inherit;
+    background-image: url('https://wallup.net/wp-content/uploads/2018/09/26/469457-abstract-art-colorful-colors-design-illustration-light-theme.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.b1 h1{
+    text-align: center;
+    padding: 30px;
+}
+.b1 p{
+    text-align: center;
+    color: black;
+    padding: 15px;
+}
+.b2{
+    width: 30%;
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+.b2 .up{
+    width:100%;
+    min-height: 20vh;
+    background-image: url('https://wallup.net/wp-content/uploads/2018/09/26/469457-abstract-art-colorful-colors-design-illustration-light-theme.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.b2 .up h1{
+    text-align: center;
+    padding:30px;
+}
+.b2 .up p{
+    text-align: center;
+    color:black;
+    padding: 15px;
+}
+.b2 .down{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url('https://www.cotc.edu/sites/main/files/imagecache/lightbox/main-images/book_stack.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.b2 .down .overlay{
+    position: relative;
+    width: 100%;
+    min-height: 20vh;
+    background-color: rgba(255, 255, 255, 0.484);
+}
+.b3{
+    padding-top: 70px;
+    width:40%;
+    min-height: inherit;
+    background-image: url('https://wallup.net/wp-content/uploads/2018/09/26/469457-abstract-art-colorful-colors-design-illustration-light-theme.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.b3 p{
+    text-align:center;
+    color:black;
+    padding: 15px;
+}
